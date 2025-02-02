@@ -52,6 +52,7 @@ git clone https://github.com/Benedictgr97/stock_prediction_v2.git
 ## Model output 
 An example output is shown below, and the methodology will work the same for other stocks and competitors, although features and models may be adjusted to achieve more accurate results.
 
+![image](https://github.com/user-attachments/assets/1295a218-d734-4312-a093-d46451f53e15)
 
 
 
