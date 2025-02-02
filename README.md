@@ -49,7 +49,7 @@ git clone https://github.com/Benedictgr97/Disaster-response-pipline.git
 ```
 
 <a name="model_output"></a>
-## **Model output **
+## Model output 
 1. Run the ETL pipline, if you have new data to train on, update the data/disaster_messages.csv data/disaster_categories.csv
 
 ![image](https://github.com/user-attachments/assets/2f92fce7-1c7a-4c8b-b975-18d0c05482a1)
