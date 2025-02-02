@@ -45,29 +45,17 @@ pip install -r requirements.txt
 Run the below command to clone the repository:
 
 ```
-git clone https://github.com/Benedictgr97/Disaster-response-pipline.git
+git clone https://github.com/Benedictgr97/stock_prediction_v2.git
 ```
 
 <a name="model_output"></a>
 ## Model output 
-1. Run the ETL pipline, if you have new data to train on, update the data/disaster_messages.csv data/disaster_categories.csv
+An example output is shown below, and the methodology will work the same for other stocks and competitors, although features and models may be adjusted to achieve more accurate results.
 
-![image](https://github.com/user-attachments/assets/2f92fce7-1c7a-4c8b-b975-18d0c05482a1)
 
-2. Run the ML pilone that trains the classifier
-   
-![image](https://github.com/user-attachments/assets/04ac348e-5c45-49cc-87ac-25745e74ae63)
-![image](https://github.com/user-attachments/assets/2aa41294-5595-4cce-b1a2-8fc95d841580)
 
-3. Running run.py whilst in the app folder will give the below in browser
 
-![image](https://github.com/user-attachments/assets/b80f1f40-7e78-4b18-a820-acbca38146a9)
 
-4.Finally, entering a disaster response message to clarify will give the below
-
-![image](https://github.com/user-attachments/assets/6d0ebe61-2015-4fa5-8d2f-a81dfd88613a)
-
-<a name="acknowledgements"></a>
 ## Acknowledgements
 - [Udacity](https://www.udacity.com/) : Providing the templates, outline and training for this course.
 - [Figure Eight](https://www.appen.com/): Providing the disaster response data.
