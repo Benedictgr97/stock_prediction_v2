@@ -3,10 +3,7 @@
 ## Table of Contents
 1. [Description](#description)
 2. [Installation and requirements](#installation_and_requirements)
-3. [Instructions](#instructions)
-4. [Additional files](#additional_files)
-5. [Example](#example)
-6. [Acknowledgements](#acknowledgements)
+3. [Model_output](#model_output)
 
 <a name="descripton"></a>
 ## Description:
@@ -51,26 +48,7 @@ Run the below command to clone the repository:
 git clone https://github.com/Benedictgr97/Disaster-response-pipline.git
 ```
 
-<a name="additional_files"></a>
-## Additional files:
-
-**Folder** - _app_
-- **run.py** - Described above
-- **Folder** -  _templates_ - HTML templates for the web application. 
-
-**Folder** - _data_
-- **ETL Pipeline Preparation.ipynb** - Experimentation to build out the process_data.py pipline with methodology included 
-- **Response_db.db** - SQLlite Database created from process_data.py containing transformed data
-- **disaster_categories.csv** - Categories for each disaster message 
-- **disaster_messages.csv** - Real disater messages using for training the classification model
-- **process_data.py** - Described above
-
-**Folder** - _models_
-- **ML Pipeline Preparation.ipynb** - Experimentation to build out the train_classifier.py model with methodology included 
-- **XGB_pipeline.pkl** - Pickle file of XGB boost trained model
-- **train_classifier.py** -  Described above
-
-<a name="example"></a>
+<a name="model_output"></a>
 ## **Example**: _Running each part_
 1. Run the ETL pipline, if you have new data to train on, update the data/disaster_messages.csv data/disaster_categories.csv
 
