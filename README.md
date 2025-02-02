@@ -58,8 +58,9 @@ An example output is shown below, and the methodology will work the same for oth
 
 
 ## Acknowledgements
-- [Udacity](https://www.udacity.com/) : Providing the templates, outline and training for this course.
-- [Figure Eight](https://www.appen.com/): Providing the disaster response data.
+- [Udacity](https://www.udacity.com/) : Providing training for this course.
+- [polygon.io](https://polygon.io/): used to pull in stock prices.
+- [Market beat](https://www.marketbeat.com/stocks/NYSE/GLW/competitors-and-alternatives/#:~:text=The%20main%20competitors%20of%20Corning,%2C%20and%20ARM%20(ARM)): Used to find the top 5 competitors.
 
 
 
