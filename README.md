@@ -10,13 +10,30 @@
 
 <a name="descripton"></a>
 ## Description:
-A pipline that ingests disaster response messages and, transforms the message and runs it through a 'bag of words' NLP model approach to classify these messages to a given type of disaster.
+A stock price prediction algorithm that improves on the accuracy of the standerd moving average used for calculating stock price movements.
 
-There are three main sections of this script, the first two are for set up and the final one is for running the model predictions alongisde displaying the layout of the data.
+Different metrics such as price competitor price movements, volumes and price variation where taken into account along side loss aversion to understand of these play a impact market movements up to a week in the future (5 days as the market is open 5 days a week). 
 
-1. **Process_Data.py**: ETL on the input data, storing it in a temporary SQLite database ready for the model.
-2. **Train_Classifier.py**: Used to train and evaluate the model from the transformed data ready for future predictions.
-3. **Run.py**: Displays the layout of the training data in a web app and allows the user to predict the disaster category of a new response.
+This is measured over a month long period with a 5 days rolling window, measuring the average mae and mse over this time period to find the most accurate model/metrics over several iterations and variations.
+
+The investigation process is below.
+
+I. Import required packages
+II. Extract stock prices
+III. Missing data
+IV. Exploratory analysis
+V. Auto regression
+VI. Excluded standard deviation
+VII. STD vs later trading price
+IX. Percentage changes
+X. Loss aversion
+XI. Moving averages and time series analysis
+XIV. Moving average
+XV. Exponential moving average
+XVI. Variations of model and adjustments to the data
+XVII. Variance inflation factor
+XVIII. Optimal model and metrics
+XIX. Final notes
 
 <a name="installation_and_requirements"></a>
 ## Installation and requirements:
