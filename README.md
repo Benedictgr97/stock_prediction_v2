@@ -19,20 +19,35 @@ This is measured over a month long period with a 5 days rolling window, measurin
 The investigation process is below.
 
 I. Import required packages
+
 II. Extract stock prices
+
 III. Missing data
+
 IV. Exploratory analysis
+
 V. Auto regression
+
 VI. Excluded standard deviation
+
 VII. STD vs later trading price
+
 IX. Percentage changes
+
 X. Loss aversion
+
 XI. Moving averages and time series analysis
+
 XIV. Moving average
+
 XV. Exponential moving average
+
 XVI. Variations of model and adjustments to the data
+
 XVII. Variance inflation factor
+
 XVIII. Optimal model and metrics
+
 XIX. Final notes
 
 <a name="installation_and_requirements"></a>
